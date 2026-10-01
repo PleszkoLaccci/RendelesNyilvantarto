@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Szamonkeres")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc134bf0876858c074c76375a3789943e1d46192")]
 [assembly: System.Reflection.AssemblyProductAttribute("Szamonkeres")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Szamonkeres")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
