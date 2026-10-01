@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "Szamonkeres.Controllers.RendelesController",
+    "Method": "OsszesRendeles",
+    "RelativePath": "rendeles/OsszesRendeles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.RendelesController",
+    "Method": "RendelesById",
+    "RelativePath": "rendeles/RendelesById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.RendelesController",
+    "Method": "RendelesDelete",
+    "RelativePath": "rendeles/RendelesDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.RendelesController",
+    "Method": "RendelesUpdate",
+    "RelativePath": "rendeles/RendelesUpdate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateRendelesDTO",
+        "Type": "Szamonkeres.Models.DTOS.UpdateRendelesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.RendelesController",
+    "Method": "UjRendeles",
+    "RelativePath": "rendeles/UjRendeles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addnewrendelesDTO",
+        "Type": "Szamonkeres.Models.DTOS.AddNewRendelesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.VendegController",
+    "Method": "AdottVendegRendelesSzama",
+    "RelativePath": "vendeg/AdottVendegRendelesSzama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.VendegController",
+    "Method": "OsszesRendelesSzama",
+    "RelativePath": "vendeg/OsszesRendelesSzama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.VendegController",
+    "Method": "VendegNameAndEverythingByVendegId",
+    "RelativePath": "vendeg/VendegNameAndEverythingByVendegId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Szamonkeres.Controllers.VendegController",
+    "Method": "VendegNameEmailById",
+    "RelativePath": "vendeg/VendegNameEmailById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
